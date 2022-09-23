@@ -8,7 +8,7 @@ function sleep() {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve("resolved");
-    }, 1500);
+    }, 2000);
   });
 }
 async function ran(players) {
@@ -19,6 +19,10 @@ async function ran(players) {
     let img = document.createElement("img");
     let p = document.createElement("p");
     div.setAttribute("id", `d${count}`);
+    div.setAttribute(
+      "class",
+      "animate__animated animate__bounceInUp animate__repeat-1"
+    );
     img.setAttribute("src", "./img/606545.png");
     p.textContent = players[Ind];
     count++;
