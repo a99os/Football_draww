@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  /* background-size: 100%; */
+  background-image: url("./img/minifootball-field-pitch-ground-isolated-top-view_611669-61.jpg");
+}
+img {
+  display: block;
+  position: static;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+p {
+  flex-wrap: nowrap;
+  position: static;
+  display: inline-block;
+  font-size: 250%;
+  background: rgb(1, 0, 0, 0.5);
+  color: white;
+}
+#d1 {
+  background: none;
+  display: inline-block;
+  position: relative;
+  top: 500px;
+  left: 130px;
+}
+#d3 {
+  background: none;
+  display: inline-block;
+  position: relative;
+  top: 800px;
+  left: -120px;
+}
+#d5 {
+  background: none;
+  display: inline-block;
+  position: relative;
+  top: 170px;
+  left: -100px;
+}
+#d7 {
+  background: none;
+  display: inline-block;
+  position: relative;
+  top: 170px;
+  left: -900px;
+}
+#d9 {
+  background: none;
+  display: inline-block;
+  position: relative;
+  top: 800px;
+  left: -910px;
+}
+#d10 {
+  background: none;
+  display: inline-block;
+  position: relative;
+  top: 500px;
+  left: -200px;
+}
+#d8 {
+  background: none;
+  display: inline-block;
+  position: relative;
+  top: 170px;
+  left: 0px;
+}
+#d6 {
+  background: none;
+  display: inline-block;
+  position: relative;
+  top: 800px;
+  left: 80px;
+}
+#d4 {
+  background: none;
+  display: inline-block;
+  position: relative;
+  top: 170px;
+  left: 500px;
+}
+#d2 {
+  background: none;
+  display: inline-block;
+  position: relative;
+  top: 800px;
+  left: 1250px;
+}
