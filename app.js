@@ -1,6 +1,19 @@
-let players1 = ["Abbos", "Omadbek", "Nomonjon", "Azimxoja"];
-let players2 = ["Murtazoxon", "Muhammadyahyo", "Sanjar Ali", "Mirabdulloh"];
-let players3 = ["Botirjon", "Abdulaziz"];
+let players1 = [
+    prompt("1-oyinchini kiriting"),
+    prompt("2-oyinchini kiriting"),
+    prompt("3-oyinchini kiriting"),
+    prompt("4-oyinchini kiriting"),
+];
+let players2 = [
+    prompt("5-oyinchini kiriting"),
+    prompt("6-oyinchini kiriting"),
+    prompt("7-oyinchini kiriting"),
+    prompt("8-oyinchini kiriting"),
+];
+let players3 = [
+    prompt("9-oyinchini kiriting"),
+    prompt("10-oyinchini kiriting"),
+];
 
 let kattaDiv = document.querySelector(".umumiy");
 let count = 1;
