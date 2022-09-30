@@ -37,3 +37,4 @@ async function bir() {
   await ran(players3);
 }
 bir();
+// Najot Talim Jamoasi ;-)
